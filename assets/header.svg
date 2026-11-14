@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Kashish Shah</title>
+  <desc id="desc">Secure, reliable, connected firmware for industrial IoT</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.58" stop-color="#12304a"/>
+      <stop offset="1" stop-color="#114c56"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a7f3d0" stroke-opacity="0.13" stroke-width="1"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="1200" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="220" fill="url(#background)"/>
+    <rect width="1200" height="220" fill="url(#grid)"/>
+    <path d="M780 162h118l28-30h78l22-24h98" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.72"/>
+    <path d="M884 80h76l20 24h108l22-20h90" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.40"/>
+    <path d="M1020 178h75l20-20h85" fill="none" stroke="#5eead4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <circle cx="1124" cy="108" r="6" fill="#5eead4"><animate attributeName="opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="80" r="4" fill="#60a5fa" opacity="0.8"/>
+    <circle cx="1095" cy="178" r="4" fill="#5eead4" opacity="0.8"/>
+    <rect x="42" y="39" width="4" height="140" rx="2" fill="url(#signal)"/>
+    <text x="70" y="99" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="700" letter-spacing="1">KASHISH SHAH</text>
+    <text x="72" y="141" fill="#b8f4e7" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="1.6">SECURE  ·  RELIABLE  ·  CONNECTED FIRMWARE</text>
+    <text x="72" y="173" fill="#a8bdd0" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1">INDUSTRIAL IoT  /  EMBEDDED SYSTEMS</text>
+  </g>
+</svg>
+
